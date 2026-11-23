@@ -41,7 +41,8 @@ be created.
 
 
 ## SKETCHS
-<img width="875" height="732" alt="image" src="https://github.com/user-attachments/assets/92d32690-dd61-4eab-8166-eb555273c6a1" />
+<img width="887" height="627" alt="image" src="https://github.com/user-attachments/assets/91fa0904-f5d0-4958-93f8-9df49e5e7538" />
+
 
 
 ## OUTPUT
