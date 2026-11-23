@@ -12,36 +12,41 @@ To sketch the given drawing with dimensions using fusion 360 tool.
   4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
   
 ## PROCEDURE
+1. First open the AutoCAD software and select 3D Modelling workspace.
+2. Set the drawing units in millimetres by using UNITS command.
+3. Draw the base shape of the component by using PLINE, LINE and ARC commands.
+4. Convert the closed base profile into solid by using EXTRUDE command. Give required thickness for
+the base.
+5. Draw the vertical support shape on the base. Use polyline and arc for making the curved top portion.
+6. Extrude the vertical support profile to required width.
+7. Use UNION command to join the base solid and vertical support solid together.
+8. Create the upper circular part by using CYLINDER command. Join this cylinder with the upper
+support.
+9. Create the front two cylindrical lugs by using cylinder command. Place it correctly at front side of the
+base.
+10. Create one side cylindrical lug also, as shown in the given model.
+11. Use UNION command for joining all the cylindrical parts with main body.
+12. Draw smaller cylinders at the centre of all cylindrical lugs for making holes.
+13. Make one hole at the top circular part also by using a small cylinder.
+14. Use SUBTRACT command. First select main object, then select the small cylinders. The holes will
+be created.
+15. Draw the middle cut-out profile and extrude it through the body.
+16. Use SUBTRACT command again to remove the middle material.
+17. Apply FILLETEDGE command for giving round edges and smooth finishing.
+18. Check the model in isometric view by using 3DORBIT.
+19. Finally save the AutoCAD drawing file.
 
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
 
-![image](https://user-images.githubusercontent.com/113594316/198206497-ca83d495-119b-45cd-b43d-8ca3ea7e9544.png)
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198206562-68463016-3f32-4a87-aa5b-7a17dd023b31.png)
-
-5.	Use inspect feature to measure the dimensions of sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198206621-6348e8a3-4bbd-4a1f-96d3-db16fbf933d9.png)
-
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
-
-![image](https://user-images.githubusercontent.com/113594316/198206639-31c4bdb5-b13e-4106-bcf5-125c294aa03e.png)
-
-7.	After finishing the sketch switch to drawing mode to plot the sketch in ISO standard.
-
-![image](https://user-images.githubusercontent.com/113594316/198206697-2e3ead2b-7d1e-436e-bc36-aa2e73c1e78e.png)
-
-![image](https://user-images.githubusercontent.com/113594316/198206721-8ad45462-2675-4be2-964f-621c8fc4490e.png)
 
 
 ## SKETCHS
-![image](https://user-images.githubusercontent.com/113594316/198208087-87ed794e-5f1c-4583-82e0-f29699dfc305.png)
+<img width="875" height="732" alt="image" src="https://github.com/user-attachments/assets/92d32690-dd61-4eab-8166-eb555273c6a1" />
+
 
 ## OUTPUT
+<img width="875" height="732" alt="image" src="https://github.com/user-attachments/assets/5e04b5d7-e38f-4d69-a8ea-5efad424f2a2" />
+
 
 
 ## RESULT
